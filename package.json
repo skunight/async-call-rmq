@@ -4,7 +4,7 @@
   "description": "",
   "author": "zzy",
   "private": true,
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",

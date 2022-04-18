@@ -76,6 +76,7 @@ export class AsyncCallModule {
     return {
       imports: [
         ConfigModule.forRoot({
+          isGlobal: true,
           envFilePath: options.env,
         }),
         EventEmitterModule.forRoot(),
